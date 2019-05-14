@@ -3,7 +3,6 @@ window.onload = function() {
     event.preventDefault();
 
     const url = "https://api.thecatapi.com/v1/images/search";
-    //const url = "https://some-random-api.ml/img/birb";
     try {
       const response = await fetch(url);
       console.log("response: ", response);  //This gets the entire response
