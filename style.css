@@ -1,44 +1,21 @@
-#puppyInstructions {
+.Instructions {
   display: block;
   text-align: center;
   font-size: 40px;
   color: black;
 }
 
-#puppySubmit {
+.submitButton {
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-size: 50px;
+  border-radius: 10px;
+  background-color: #555555;
+  color: white;
+  border: none;
 }
 
-#kittenInstructions {
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  color: black;
-}
-
-#kittenSubmit {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 50px;
-}
-
-#randomInstructions {
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  color: black;
-}
-
-#randomSubmit {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 50px;
-}
 #home {
   background-image: url("./images/tree.jpg");
   background-size: cover;
@@ -52,6 +29,22 @@
   background-size: cover;
 }
 #kittens {
+  background-image: url("./images/red.png");
+  background-size: cover;
+}
+#bunny {
+  background-image: url("./images/red.png");
+  background-size: cover;
+}
+#fox {
+  background-image: url("./images/white.jpg");
+  background-size: cover;
+}
+#duck {
+  background-image: url("./images/orange.jpg");
+  background-size: cover;
+}
+#beaver {
   background-image: url("./images/red.png");
   background-size: cover;
 }
