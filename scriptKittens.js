@@ -3,7 +3,7 @@ window.onload = function() {
     event.preventDefault();
 
     const url = "https://api.thecatapi.com/v1/images/search";
-    //66d3f079-1b26-4c07-93de-4ce99d9c7f04
+    //const url = "https://some-random-api.ml/img/birb";
     try {
       const response = await fetch(url);
       console.log("response: ", response);  //This gets the entire response
@@ -11,7 +11,8 @@ window.onload = function() {
       console.log("json: ", json);  //This gets it in json file, readable
 
       let results = "";
-      results += '<img style="position:relative" src=' + json[0].url + '/>';
+      results += '<br>';
+      results += '<img style="display:block; margin-left: auto; margin-right: auto" src="' + json[0].url + '" width="700" height="700"/>';
       console.log(json[0].url + ": end of the message");
       document.getElementById("kittenPictureRetrieved").innerHTML = results;
     } catch(err) {
