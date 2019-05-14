@@ -1,0 +1,57 @@
+#puppyInstructions {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+#puppySubmit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+
+#kittenInstructions {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+#kittenSubmit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+
+#randomInstructions {
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
+
+#randomSubmit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 50px;
+}
+#home {
+  background-image: url("./images/tree.jpg");
+  background-size: cover;
+}
+#puppies {
+  background-image: url("./images/white.jpg");
+  background-size: cover;
+}
+#random {
+  background-image: url("./images/orange.jpg");
+  background-size: cover;
+}
+#kittens {
+  background-image: url("./images/red.png");
+  background-size: cover;
+}
